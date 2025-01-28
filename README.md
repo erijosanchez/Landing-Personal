@@ -1,12 +1,17 @@
 
-# Project Title
+# Landig Page Personal
 
-A brief description of what this project does and who it's for
+Esta landing page está diseñada para ofrecer una experiencia visual atractiva y dinámica. Es una página estática pero con funciones interactivas que mejoran la experiencia del usuario. Con un diseño limpio y moderno, incluye animaciones fluidas que capturan la atención del visitante, haciendo que la información se entregue de manera efectiva y memorable. El objetivo principal es presentar de forma clara y llamativa los datos importantes, mientras se ofrece una navegación intuitiva. Esta página busca no solo informar, sino también generar un impacto positivo, guiando al usuario a través de una experiencia fluida y visualmente estimulante.
 
+### Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
 
 ## Authors
 
-- [@octokatherine](https://github.com/erijosanchez)
+- [@erijosanchez](https://github.com/erijosanchez)
 
 
 ## 🚀 About Me
