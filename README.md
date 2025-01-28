@@ -1,4 +1,3 @@
-
 # Landig Page Personal
 
 Esta landing page está diseñada para ofrecer una experiencia visual atractiva y dinámica. Es una página estática pero con funciones interactivas que mejoran la experiencia del usuario. Con un diseño limpio y moderno, incluye animaciones fluidas que capturan la atención del visitante, haciendo que la información se entregue de manera efectiva y memorable. El objetivo principal es presentar de forma clara y llamativa los datos importantes, mientras se ofrece una navegación intuitiva. Esta página busca no solo informar, sino también generar un impacto positivo, guiando al usuario a través de una experiencia fluida y visualmente estimulante.
@@ -13,11 +12,9 @@ Esta landing page está diseñada para ofrecer una experiencia visual atractiva 
 
 - [@erijosanchez](https://github.com/erijosanchez)
 
-
 ## 🚀 About Me
-I'm a full stack developer...
 
-
+Soy Erick José Sánchez Pinedo, Desarrollador web e ingeniero de tecnologías de la información y comunicación.
 ## FAQ
 
 #### Question 1
@@ -28,13 +25,10 @@ Answer 1
 
 Answer 2
 
-
 ## Documentation
 
 [Documentation](https://linktodocumentation)
 
-
 ## Screenshots
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
