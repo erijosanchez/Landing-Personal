@@ -1,8 +1,7 @@
 /*
 * ----------------------------------------------------------------------------------------
-Author        : Rama Hardian Sidik
-Template Name : Freeman - Free Multipurpose Personal One Page Html Template
-Version       : 1.0
+Author        : Erick José Sánchez Pinedo
+Template Name : Duck Dev - Landing Personal
 Filename      : main.js
 * ----------------------------------------------------------------------------------------
 * ----------------------------------------------------------------------------------------
