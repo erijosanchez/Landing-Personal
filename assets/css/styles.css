@@ -64,10 +64,6 @@ body {
     font-family: 'Poppins';
     font-size: 15px;
     font-weight: 400;
-    background: linear-gradient(135deg,
-            #FFDB67 0%,
-            #1a1205a7 40%,
-            #0b0b0b9e 100%);/*Background hero section */
     color: #181715;
     text-rendering: optimizeLegibility;
 }
@@ -361,6 +357,7 @@ textarea {
 
 #sectionhero {
     padding: 100px 0 0;
+    background: linear-gradient(135deg, #fbd043 0%, #0e0e0e 100%);
 }
 
 .infohero__p {
@@ -369,7 +366,7 @@ textarea {
     padding: 5px 20px;
     color: #ffffff;
     display: inline-block;
-    background: #181715;
+    background: #181515;
 }
 
 .infohero__title {
