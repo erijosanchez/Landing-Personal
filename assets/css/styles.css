@@ -413,7 +413,7 @@ textarea {
 
 #aboutsection {
     height: auto;
-    background: linear-gradient(135deg, #1A2A4A, #4A90E2); /*color de fondo de las secciones*/
+    background: linear-gradient(135deg, #1a1a1a, #444444); /*color de fondo de las secciones*/
     padding: 50px 0 0;
 }
 
