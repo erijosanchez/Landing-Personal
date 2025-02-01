@@ -355,7 +355,7 @@ textarea {
 
 #sectionhero {
     padding: 100px 0 0;
-    background: linear-gradient(135deg, #fbd043 0%, #0e0e0e 100%);
+    background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%);
 }
 
 .infohero__p {
@@ -441,7 +441,7 @@ textarea {
 */
 
 #servicesection {
-    background: linear-gradient(135deg, #fbd043 0%, #0e0e0e 100%);
+    background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%);
     height: auto;
     padding: 0 0 0;
 }
@@ -567,7 +567,7 @@ textarea {
 
 #contactsection {
     height: auto;
-    background: linear-gradient(135deg, #fbd043 0%, #0e0e0e 100%);
+    background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%);
     padding: 0 0 50px;
 }
 
