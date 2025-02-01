@@ -134,8 +134,7 @@ textarea {
     border: none;
     width: 20px;
     height: 2px;
-    background: #ddaa01;
-    /* color de los putnos del slider */
+    background: #ddaa01;/* color de los putnos del slider */
     border-radius: 3px;
     margin: 10px 5px;
     padding: 3px;
