@@ -17,13 +17,10 @@ Esta landing page está diseñada para ofrecer una experiencia visual atractiva 
 Soy Erick José Sánchez Pinedo, Desarrollador web e ingeniero de tecnologías de la información y comunicación.
 ## FAQ
 
-#### Question 1
+#### ¿Duck Dev?
 
-Answer 1
-
-#### Question 2
-
-Answer 2
+Duck Dev es un proyecto personal mío para desarrollar y comercializar webs con excelentes diseños y rendimiento para todo tipo de público.
+Teniendo en consideración al equipo de trabajo y al cliente quien es lo mas importante para nosotros.
 
 ## Documentation
 
