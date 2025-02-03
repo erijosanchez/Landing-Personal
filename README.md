@@ -24,4 +24,6 @@ Teniendo en consideración al equipo de trabajo y al cliente quien es lo mas imp
 
 ## Screenshots
 
-![alt text](assets/img/favicon.webp)
+![alt text](assets/img/capturas/captura-1.png)
+![alt text](assets/img/capturas/captura-2.png)
+![alt text](assets/img/capturas/captura-3.png)
