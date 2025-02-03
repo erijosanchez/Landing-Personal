@@ -229,7 +229,9 @@ textarea {
     font-size: 15px;
     font-weight: 500;
     position: relative;
-    color: #181715;
+    background: linear-gradient(to bottom, #2F64A5, #5699eb);
+    color: transparent;
+    -webkit-background-clip: text;
     z-index: 1;
     padding: 5px 15px;
     border-radius: 50px;
@@ -237,13 +239,13 @@ textarea {
 
 .navpage__wrap li a:hover {
     text-decoration: none;
-    color: #ffffff;
-    background: #181715;
+    color: #FBB149;
+    background: linear-gradient(to bottom, #2F64A5, #5699eb);
 }
 
 .navpage__wrap li a.activelink {
-    color: #ffffff;
-    background: #181715;
+    color: #FBB149;
+    background: linear-gradient(to bottom, #2F64A5, #5699eb);
 }
 
 .navicon {
