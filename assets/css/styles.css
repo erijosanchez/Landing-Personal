@@ -110,14 +110,14 @@ textarea {
 }
 
 .linkbtn {
-    background: #181715;
-    color: #ffffff;
+    background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%);
+    color: #1a1a1a;
     padding: 10px 20px;
     border-radius: 50px;
 }
 
 .linkbtn:hover {
-    color: #ffffff;
+    color: #5699eb;
 }
 
 .navigation-wrapper {
@@ -426,6 +426,12 @@ textarea {
     color: transparent;
 }
 
+.infoabout p {
+    background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%); /* Degradado de arriba hacia abajo */
+    -webkit-background-clip: text; /* Hace que el degradado se aplique al texto */
+    color: transparent;
+}
+
 .infoabout__list {
     padding: 0;
 }
@@ -435,7 +441,9 @@ textarea {
 }
 
 .infoabout__wrap .infoabout__title {
-    color: #181715;
+    background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%); /* Degradado de arriba hacia abajo */
+    -webkit-background-clip: text; /* Hace que el degradado se aplique al texto */
+    color: transparent;
     letter-spacing: 1px;
     font-weight: 700;
 }
@@ -454,6 +462,9 @@ textarea {
 
 .counterwrap {
     text-align: center;
+    background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%); /* Degradado de arriba hacia abajo */
+    -webkit-background-clip: text; /* Hace que el degradado se aplique al texto */
+    color: transparent;
 }
 
 .counterwrap__counternum {
