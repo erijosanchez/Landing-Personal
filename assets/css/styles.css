@@ -134,7 +134,7 @@ textarea {
     border: none;
     width: 20px;
     height: 2px;
-    background: #ddaa01;/* color de los putnos del slider */
+    background: linear-gradient(135deg, #1a1a1a, #444444); /*Color de los puntos del slider*/
     border-radius: 3px;
     margin: 10px 5px;
     padding: 3px;
@@ -146,7 +146,7 @@ textarea {
 }
 
 .dot--active {
-    background: #181715;
+    background: linear-gradient(to bottom, #2F64A5, #5699eb); /* Degradado de arriba hacia abajo */
 }
 
 /*
@@ -478,7 +478,8 @@ textarea {
 
 .wrapservice i {
     font-size: 30px;
-    background: #ddaa01;
+    background: linear-gradient(135deg, #1a1a1a, #444444); /* Degradado de arriba hacia abajo */
+    color: #5699eb;
     padding: 20px 20px;
     border-radius: 100%;
 }
