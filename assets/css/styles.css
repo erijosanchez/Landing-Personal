@@ -106,7 +106,7 @@ textarea {
 }
 
 .goverlay {
-    background: #FFDB67;
+    background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%);
 }
 
 .linkbtn {
@@ -528,6 +528,7 @@ textarea {
     border-radius: 5px;
     height: 350px;
     width: 100%;
+    background: linear-gradient(135deg, #fbb14923, #f2784b23) !important;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
