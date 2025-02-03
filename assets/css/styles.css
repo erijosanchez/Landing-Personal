@@ -370,7 +370,7 @@ textarea {
 .infohero__title {
     font-size: 80px;
     font-weight: 600;
-    text-shadow: 5px 5px #000; /*color de la sombra del titulo donde está el nombre*/
+    filter: drop-shadow(6px 5px #000);  /*color de la sombra del titulo donde está el nombre*/
     background: linear-gradient(to bottom, #2F64A5, #5699eb); /* Degradado de arriba hacia abajo */
     -webkit-background-clip: text; /* Hace que el degradado se aplique al texto */
     color: transparent;
@@ -421,6 +421,9 @@ textarea {
 .abouthero h3 {
     font-size: 50px;
     font-weight: 600;
+    background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%); /* Degradado de arriba hacia abajo */
+    -webkit-background-clip: text; /* Hace que el degradado se aplique al texto */
+    color: transparent;
 }
 
 .infoabout__list {
