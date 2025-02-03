@@ -22,10 +22,6 @@ Soy Erick José Sánchez Pinedo, Desarrollador web e ingeniero de tecnologías d
 Duck Dev es un proyecto personal mío para desarrollar y comercializar webs con excelentes diseños y rendimiento para todo tipo de público.
 Teniendo en consideración al equipo de trabajo y al cliente quien es lo mas importante para nosotros.
 
-## Documentation
-
-[Documentation](https://linktodocumentation)
-
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![alt text](assets/img/favicon.webp)
