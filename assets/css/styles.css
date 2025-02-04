@@ -324,7 +324,7 @@ textarea {
 
 .overlay__listnav {
     padding: 0 0 0 20px;
-    margin-top: 1rem;
+    margin-top: 1rem; /*Espacio entre el logo y la barra de navegación*/
 }
 
 .overlay__listnav li {
