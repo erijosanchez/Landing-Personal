@@ -324,6 +324,7 @@ textarea {
 
 .overlay__listnav {
     padding: 0 0 0 20px;
+    margin-top: 1rem;
 }
 
 .overlay__listnav li {
