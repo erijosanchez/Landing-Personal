@@ -315,7 +315,7 @@ textarea {
     z-index: 2;
     top: -100%;
     display: none;
-    background: #FFDB67;
+    background: linear-gradient(135deg, #1a1a1a, #444444);
     padding: 80px 0 30px 0;
     border-bottom: 1px solid #ddaa01;
 }
