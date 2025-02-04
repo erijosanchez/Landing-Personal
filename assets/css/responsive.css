@@ -69,7 +69,13 @@ Filename      : responsive.css
     }
 }
 
-@media only screen and (max-width: 699px) {}
+@media only screen and (max-width: 699px) {
+    .fixid {
+        background: none;
+        backdrop-filter: none;
+        box-shadow: none;
+    }
+}
 
 @media only screen and (max-width: 580px) {
     #sectionhero {
