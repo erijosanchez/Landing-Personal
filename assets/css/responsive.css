@@ -71,9 +71,15 @@ Filename      : responsive.css
 
 @media only screen and (max-width: 699px) {
     .fixid {
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+        background: rgba(0, 0, 0, 0.419);
+        backdrop-filter: blur(10px);
+    }
+
+    .navicon.active ~ .fixid {
+        box-shadow: none;
         background: none;
         backdrop-filter: none;
-        box-shadow: none;
     }
 }
 

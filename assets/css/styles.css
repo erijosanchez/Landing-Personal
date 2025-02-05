@@ -84,6 +84,12 @@ a:hover {
     backdrop-filter: blur(10px);
 }
 
+body.openmenu #headermain.fixid {
+    background: transparent !important;
+    backdrop-filter: none !important;
+    box-shadow: none !important;
+}
+
 label {
     font-size: 13px;
     font-weight: 600;
