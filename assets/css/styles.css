@@ -340,17 +340,19 @@ textarea {
 
 .overlay__listnav li a {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     position: relative;
-    color: #181715;
+    background: linear-gradient(to bottom, #2F64A5, #5699eb); /* Degradado de arriba hacia abajo */
+    -webkit-background-clip: text; /* Hace que el degradado se aplique al texto */
+    color: transparent;
     padding: 5px 10px;
     border-radius: 50px;
 }
 
 .overlay__listnav li a:hover {
-    color: #ffffff;
+    color: #FBB149;
     text-decoration: none;
-    background: #181715;
+    background: linear-gradient(to bottom, #2F64A5, #5699eb);
 }
 
 .openmenu .overlay {
