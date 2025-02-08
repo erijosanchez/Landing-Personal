@@ -419,6 +419,7 @@ textarea {
     display: inline-block;
 }
 
+
 /*
 * ----------------------------------------------------------------------------------------
 * 04.ABOUT SECTION. 
@@ -427,7 +428,7 @@ textarea {
 
 #aboutsection {
     height: auto;
-    background: linear-gradient(135deg, #1a1a1a, #444444); /*color de fondo de las secciones*/
+    background:#1a1a1a; /*color de fondo de las secciones*/
     padding: 50px 0 0;
 }
 
@@ -491,7 +492,7 @@ textarea {
 
 .wrapservice i {
     font-size: 30px;
-    background: linear-gradient(135deg, #1a1a1a, #444444); /* Degradado de arriba hacia abajo */
+    background:#1a1a1a; /* Degradado de arriba hacia abajo */
     color: #5699eb;
     padding: 20px 20px;
     border-radius: 100%;
@@ -509,7 +510,7 @@ textarea {
 */
 
 #portfoliosection {
-    background: linear-gradient(135deg, #1a1a1a, #444444);
+    background:#1a1a1a;
     height: auto;
 }
 

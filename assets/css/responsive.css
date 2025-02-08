@@ -75,6 +75,11 @@ Filename      : responsive.css
         background: none;
         backdrop-filter: none;
     }
+
+    #headermain {
+        width: 90%;
+    }
+    
 }
 
 @media only screen and (max-width: 580px) {
@@ -97,4 +102,6 @@ Filename      : responsive.css
 
 @media(hover: hover) and (pointer: fine) {}
 
-@media screen and (prefers-reduced-motion) {}
+@media only screen and (prefers-reduced-motion) {
+
+}
