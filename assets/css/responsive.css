@@ -67,6 +67,22 @@ Filename      : responsive.css
     .porfoliowarp__item {
         width: 100%;
     }
+
+    .textodesc {
+        text-align: justify;
+    }
+
+    .abouthero h3 {
+        font-size: 40px;
+    }
+
+    .counterwrap__counternum {
+        font-size: 20px;
+    }
+
+    .desc_counterw {
+        font-size: 13px;
+    }
 }
 
 @media only screen and (max-width: 699px) {
