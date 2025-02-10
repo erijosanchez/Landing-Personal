@@ -603,13 +603,127 @@ textarea {
     background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%);
 }
 
-.abouthero h3 {
+.skillhero h3 {
     font-size: 50px;
     font-weight: 600;
+    filter: drop-shadow(4px 4px #1a1a1a);
     background: linear-gradient(to bottom, #2F64A5, #5699eb);  /* Degradado de arriba hacia abajo */
     -webkit-background-clip: text; /* Hace que el degradado se aplique al texto */
     color: transparent;
 }
+
+.skill-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px) rotateY(10deg);
+    border-color: var(--secondary);
+    box-shadow: 0 10px 20px rgba(0, 210, 255, 0.2);
+}
+
+.skill-card i {
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover i {
+    transform: scale(1.2);
+}
+
+.skill-card i>img {
+    width: 45px;
+    border-radius: 3px;
+}
+
+.skill-card p {
+    font-size: 0.9rem;
+}
+
+.skills-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Efecto de degradado en los bordes */
+.skills-carousel::before,
+.skills-carousel::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.skills-carousel::before {
+    left: 0;
+    background: linear-gradient(to right,
+            #0b0802b2 0%,
+            #130e0493 40%,
+            transparent 100%);
+}
+
+.skills-carousel::after {
+    right: 0;
+    background: linear-gradient(to left,
+            #6d441caa 0%,
+            #66401b99 40%,
+            transparent 100%);
+}
+
+.skills-track {
+    display: flex;
+    animation: scroll 70s linear infinite;
+    will-change: transform;
+}
+
+.skills-track:hover {
+    animation-play-state: paused;
+}
+
+.skill-card {
+    flex: 0 0 250px;
+    /* Ancho fijo para cada tarjeta */
+    margin: 0 15px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--secondary);
+    box-shadow: 0 10px 20px rgba(0, 210, 255, 0.2);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 44));
+        /* La mitad del ancho total */
+    }
+}
+
 
 /*
 * ----------------------------------------------------------------------------------------
