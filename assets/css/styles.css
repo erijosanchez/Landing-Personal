@@ -603,6 +603,14 @@ textarea {
     background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%);
 }
 
+.abouthero h3 {
+    font-size: 50px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #2F64A5, #5699eb);  /* Degradado de arriba hacia abajo */
+    -webkit-background-clip: text; /* Hace que el degradado se aplique al texto */
+    color: transparent;
+}
+
 /*
 * ----------------------------------------------------------------------------------------
 * 08.CONTACT SECTION. 
