@@ -606,16 +606,18 @@ textarea {
 .skillhero h3 {
     font-size: 50px;
     font-weight: 600;
+    padding-top: 5rem;
     filter: drop-shadow(4px 4px #1a1a1a);
     background: linear-gradient(to bottom, #2F64A5, #5699eb);  /* Degradado de arriba hacia abajo */
     -webkit-background-clip: text; /* Hace que el degradado se aplique al texto */
     color: transparent;
+    padding-bottom: 5rem;
 }
 
 .skill-card {
     background: rgba(255, 255, 255, 0.05);
     padding: 2rem;
-    border-radius: 15px;
+    border-radius: 50px !important;
     backdrop-filter: blur(10px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -655,6 +657,10 @@ textarea {
     padding: 20px 0;
 }
 
+.skl {
+    padding-bottom: 7rem;
+}
+
 /* Efecto de degradado en los bordes */
 .skills-carousel::before,
 .skills-carousel::after {
@@ -685,7 +691,8 @@ textarea {
 
 .skills-track {
     display: flex;
-    animation: scroll 70s linear infinite;
+    width: calc(250px * 18 * 2);
+    animation: scroll 30s linear infinite;
     will-change: transform;
 }
 
@@ -719,7 +726,7 @@ textarea {
     }
 
     100% {
-        transform: translateX(calc(-250px * 44));
+        transform: translateX(calc(-250px * 18));
         /* La mitad del ancho total */
     }
 }
