@@ -605,7 +605,7 @@ textarea {
 
 /*
 * ----------------------------------------------------------------------------------------
-* 07.CONTACT SECTION. 
+* 08.CONTACT SECTION. 
 * ----------------------------------------------------------------------------------------
 */
 
@@ -615,10 +615,15 @@ textarea {
     padding: 0 0 50px;
 }
 
+.contactdetail {
+    background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%); /* Degradado de arriba hacia abajo */
+    -webkit-background-clip: text; /* Hace que el degradado se aplique al texto */
+    color: transparent;
+}
+
 .contactdetail__title {
     font-size: 30px;
     font-weight: 600;
-    color: #1a1a1a;
 }
 
 .contactdetail__list {
@@ -629,6 +634,19 @@ textarea {
     list-style: none;
     position: relative;
     margin: 20px 0;
+    background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%); /* Degradado de arriba hacia abajo */
+    -webkit-background-clip: text; /* Hace que el degradado se aplique al texto */
+    color: transparent;
+}
+
+.labelcontac {
+    background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%); /* Degradado de arriba hacia abajo */
+    -webkit-background-clip: text; /* Hace que el degradado se aplique al texto */
+    color: transparent;
+}
+
+.contact__inputstyle {
+    border: 1px solid #FBB149;
 }
 
 .contactdetail__span {
@@ -650,13 +668,15 @@ textarea {
 }
 
 .contactdetail__sosmed li a {
-    color: #181715;
+    background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%); /* Degradado de arriba hacia abajo */
+    -webkit-background-clip: text; /* Hace que el degradado se aplique al texto */
+    color: transparent;
     font-size: 30px;
 }
 
 /*
 * ----------------------------------------------------------------------------------------
-* 08.FOOTER SECTION. 
+* 09.FOOTER SECTION. 
 * ----------------------------------------------------------------------------------------
 */
 
