@@ -606,26 +606,15 @@ textarea {
 .skillhero h3 {
     font-size: 50px;
     font-weight: 600;
-    padding-top: 5rem;
+    padding-top: 2rem;
     filter: drop-shadow(4px 4px #1a1a1a);
     background: linear-gradient(to bottom, #2F64A5, #5699eb);  /* Degradado de arriba hacia abajo */
     -webkit-background-clip: text; /* Hace que el degradado se aplique al texto */
     color: transparent;
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
 }
 
-.skill-card {
-    background: rgba(255, 255, 255, 0.05);
-    padding: 2rem;
-    border-radius: 50px !important;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    transition: transform 0.3s;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    transform-style: preserve-3d;
-    perspective: 1000px;
-}
+
 
 .skill-card:hover {
     transform: translateY(-5px) rotateY(10deg);
@@ -635,6 +624,7 @@ textarea {
 
 .skill-card i {
     transition: transform 0.3s ease;
+    margin-top: 1rem;
 }
 
 .skill-card:hover i {
@@ -653,6 +643,7 @@ textarea {
 .skill-card h3 {
     font-size: 1.1rem;
     margin-top: 1rem;
+    font-weight: 600;
 }
 
 .skill-card p {
@@ -685,16 +676,16 @@ textarea {
 .skills-carousel::before {
     left: 0;
     background: linear-gradient(to right,
-            #0b0802b2 0%,
-            #130e0493 40%,
+            #F9A24A 0%,
+            #F89F4A 40%,
             transparent 100%);
 }
 
 .skills-carousel::after {
     right: 0;
     background: linear-gradient(to left,
-            #6d441caa 0%,
-            #66401b99 40%,
+            #F4864B 0%,
+            #F58D4A 40%,
             transparent 100%);
 }
 
@@ -710,17 +701,19 @@ textarea {
 }
 
 .skill-card {
-    flex: 0 0 250px;
+    flex: 0 0 175px;
     /* Ancho fijo para cada tarjeta */
     margin: 0 15px;
     background: rgba(255, 255, 255, 0.05);
-    padding: 2rem;
-    border-radius: 15px;
+    padding: 1.5rem;
     backdrop-filter: blur(10px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
     transition: transform 0.3s;
     border: 1px solid rgba(255, 255, 255, 0.1);
+    transform-style: preserve-3d;
+    border-radius: 20px;
+    cursor: pointer ;
 }
 
 .skill-card:hover {
