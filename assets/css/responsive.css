@@ -83,6 +83,27 @@ Filename      : responsive.css
     .desc_counterw {
         font-size: 13px;
     }
+
+    /*Responsive del carrousel*/
+
+    .skill-card {
+        flex: 0 0 120px;
+        /* Ancho fijo para cada tarjeta */
+        margin: 0 8px;
+        padding: 0.5rem;
+    }
+
+    .skill-card h3{
+        font-size: 1rem;
+    }
+
+    /*Ancho del degradado del carrusel*/
+    .skills-carousel::before,
+    .skills-carousel::after {
+        width: 60px;
+    }   
+
+
 }
 
 @media only screen and (max-width: 699px) {
@@ -94,6 +115,12 @@ Filename      : responsive.css
 
     #headermain {
         width: 90%;
+    }
+
+    /*Tamaño de los iconos realizados con imagenes */
+    .skill-card i>img {
+        width: 40px;
+        margin-top: 1rem;
     }
     
 }
