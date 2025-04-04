@@ -71,6 +71,7 @@ const freemaninit = (function() {
         });
         GLightbox();
     };
+    
     // shuffle portfolio
     const portofolio = function(e) {
         var myShuffle = new Shuffle(porto, {

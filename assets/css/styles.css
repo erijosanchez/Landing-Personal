@@ -777,6 +777,37 @@ textarea {
     color: transparent;
 }
 
+.btn-ver-mas {
+    margin-top: 80vh;
+    padding: 10px 40px;
+    background: linear-gradient(135deg, #FBB149 0%, #F2784B 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    float: left;
+    font-family: 'poppins' sans-serif;
+    font-size: 1.1rem;
+}
+
+.btn-ver-mas:hover {
+    background: linear-gradient(135deg, #f79f25 0%, #fd591e 100%);
+    color: white;
+}
+
+.gslide-description {
+    background: transparent !important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.span-desc {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
 .contact__inputstyle {
     border: 1px solid #FBB149;
     color: #ffffff;
