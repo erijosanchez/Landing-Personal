@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         submitButton.textContent = 'Enviando...';
         
         // Enviar datos usando fetch
-        fetch('process_form.php', {
+        fetch('php/form-logic.php', {
             method: 'POST',
             body: formData
         })
