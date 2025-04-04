@@ -634,6 +634,7 @@ textarea {
 .skill-card i>img {
     width: 45px;
     border-radius: 3px;
+    margin-top: 1rem;
 }
 
 .skill-card i .mysql-l{

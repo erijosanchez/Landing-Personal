@@ -100,9 +100,8 @@ Filename      : responsive.css
     /*Ancho del degradado del carrusel*/
     .skills-carousel::before,
     .skills-carousel::after {
-        width: 60px;
-    }   
-
+        width: 55px;
+    }
 
 }
 
@@ -121,6 +120,22 @@ Filename      : responsive.css
     .skill-card i>img {
         width: 40px;
         margin-top: 1rem;
+    }
+
+    .skills-track {
+        width: calc(110px * 18 * 2);
+        animation: scroll 20s linear infinite;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+    
+        100% {
+            transform: translateX(calc(-110px * 18));
+            /* La mitad del ancho total */
+        }
     }
     
 }
